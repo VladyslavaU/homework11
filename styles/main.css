@@ -1,0 +1,155 @@
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    background-color: #EEEFF1;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header {
+    display: block;
+    position: sticky;
+}
+
+.header__nav {
+    max-width: 611px;
+    width: 31.82%;
+    margin-left: 20.78%;
+    /*margin-left: 399px;*/
+    position: absolute;
+}
+
+.header__position {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    padding-left: 0;
+}
+
+.nav__item {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 2.18%;
+}
+
+.nav__item--selected {
+    color: #34547A;
+}
+
+.header__title {
+    margin-left: 20.78%;
+    font-size: 3rem;
+    padding: 0;
+    position: absolute;
+}
+
+h1::first-letter {
+    text-transform: capitalize;
+}
+
+.header__text {
+    max-width: 540px;
+    width: 28.12%;
+    margin-left: 20.83%;
+    font-weight: 400;
+    color: #727272;
+    position: absolute;
+}
+
+.header__button {
+    max-width: 225px;
+    width: 11.71%;
+    margin-left: 20.78%;
+    background-color: #34547A;
+    border: none;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+.about {
+    background-color: #F9F9F9;
+    align-content: center;
+    position: sticky;
+}
+
+.section__text {
+    max-width: 540px;
+    width: 28.12%;
+    margin-left: 35.93%;
+    position: absolute;
+    color: #727272;
+    text-align: center;
+    background-color: inherit;
+}
+
+.section__header {
+    max-width: 403px;
+    width: 20.98%;
+    margin-left: 39.47%;
+    font-size: 2rem;
+    position: absolute;
+    text-align: center;
+}
+
+.section__header:first-letter {
+    text-transform: capitalize;
+}
+
+.numbers {
+    background-color: #34547A;
+    position: sticky;
+}
+
+.numbers__number {
+    margin-right: 2.34%;
+}
+
+.numbers__position {
+    margin-left: 20.83%;
+}
+
+.work {
+    background-color: inherit;
+}
+
+.work__video {
+    max-width: 1110px;
+    width: 57.29%;
+    margin: 20.78% 0 0 21.09%;
+    position: absolute;
+}
+
+.work__img {
+    width: 100%;
+    height: 100%;
+}
+
+.work__play {
+    max-width: 100px;
+    width: 5.20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    background-color: #34547A;
+    color: white;
+    font-weight: 500;
+}
+
+.footer__header {
+    margin-left: 21.14%;
+    position: absolute;
+    font-weight: 500;
+}
+
+.footer__text {
+    margin-left: 21.14%;
+    position: absolute;
+    font-weight: 400;
+}
